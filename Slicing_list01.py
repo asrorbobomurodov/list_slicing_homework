@@ -6,4 +6,5 @@ def main(numbers):
     Returns:
         list: return answer.
     """
-    return
+    return numbers[::2]
+print(main([1,3,4,7,77]))
